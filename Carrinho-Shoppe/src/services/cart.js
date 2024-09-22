@@ -25,7 +25,7 @@ async function calculateTotal(userCart) {
 }
 
 async function displayCart(userCart) {
-  console.log("\nShopee Cart List:\n");
+  console.log("\nCart List:\n");
   userCart.forEach((iten, index) => {
     console.log(
       `${index + 1}. ${iten.name} - R$${iten.price} | ${

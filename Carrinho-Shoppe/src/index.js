@@ -5,7 +5,7 @@ const myCart = [];
 
 const myWhishList = [];
 
-console.log("Welcome to the your Shoppe Cart");
+console.log("Welcome to the your Shopping Cart");
 
 const iten1 = await createItem("Mouse Gamer", 9, 1);
 const iten2 = await createItem("Mikey Mouse", 12, 5);
