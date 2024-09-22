@@ -1,5 +1,6 @@
 const config = require("./services/config");
-const somaNum = require("./services/teste")
+const somaNum = require("./services/teste");
+const dataBase = require("./services/database")
 
 async function main() {
   console.log("Olá, meu nome é sistema");
@@ -8,8 +9,11 @@ async function main() {
   //     products.getProductLabel(`Item=${i+1}`)
   //   }
 
-console.log(config.production)
-console.log(somaNum(5,5))
+  console.log(dataBase.connectToDatabase("Jilozinho"))
+  console.log(config.production);
+  console.log(`A soma é ${somaNum(5, 5)}`);
+  console.log(dataBase.desconnectDataBase("Jilozinho"))
+  console.log(dataBase.teste(4,10))
 }
 
 main();

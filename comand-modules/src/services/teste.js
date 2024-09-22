@@ -1,5 +1,5 @@
 let somaNum = (a,b ) =>{
-    console.log(`A soma é ${a+b}`)
+    return a+b
 }
 
-module.exports = somaNum
+module.exports= somaNum
