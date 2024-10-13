@@ -1,0 +1,21 @@
+{
+  "name": "apiexpress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:serv": "node --watch src/index.js",
+    "start:prisma":"npx prisma studio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^5.20.0",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "prisma": "^5.20.0"
+  }
+}
