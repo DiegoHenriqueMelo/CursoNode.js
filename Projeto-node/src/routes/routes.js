@@ -1,0 +1,5 @@
+export const routeCreate = "/create-users"
+export const routeList = "/list-users"
+export const routeListById = "/list-user/:index"
+export const routeUpdate = "/cursos/:index"
+export const routeRemove = "/cursos/:index"

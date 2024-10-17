@@ -1,0 +1,20 @@
+{
+  "name": "projeto-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type":  "module",
+  "scripts": {
+    "start": "node --watch src/index.js",
+    "test": "node src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "express": "^4.21.1"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
+}
